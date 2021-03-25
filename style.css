@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto-regular";
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header,
+.main-section {
+  padding-top: 0;
+  background-color: #eeeff1;
+}
+
+.fixed-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+.menu-container {
+  padding-top: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 47px;
+}
+
+.header-menu {
+  padding-top: 6px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  list-style-type: none;
+  letter-spacing: 1.65px;
+  font-size: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 43px;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 136.3px;
+  padding-left: 135px;
+  padding-bottom: 157px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  letter-spacing: 1.5px;
+}
+
+.section-container-right {
+  padding-left: 133px;
+}
+
+.section-container-left {
+  padding-top: 20px;
+}
+
+.caption {
+  margin-bottom: 50px;
+  line-height: 26px;
+  width: 580px;
+  color: #727272;
+}
+
+.button {
+  width: 225px;
+  height: 65px;
+  background-color: #34547a;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 0%;
+  cursor: pointer;
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}
