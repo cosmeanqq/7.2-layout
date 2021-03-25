@@ -50,6 +50,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: 600;
   margin-right: 43px;
+  color: black;
 }
 
 nav ul li a:hover {
